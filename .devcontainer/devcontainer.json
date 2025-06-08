@@ -1,0 +1,7 @@
+{
+"name": "Angular Frontend",
+"dockerFile": "Dockerfile",
+"forwardPorts": [80],
+"extensions": ["angular.ng-template"],
+"postCreateCommand": "npm install"
+}
